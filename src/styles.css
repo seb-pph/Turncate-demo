@@ -1,12 +1,25 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .wrapper {
+  /* background: #e85d3a; */
+  height: 72px;
+  overflow: hidden;
+  padding: 15px;
+}
+.wrapper.off {
+  overflow: visible;
+}
+.inner {
   display: flex;
   flex-wrap: wrap;
   background: #3ab3e8;
-  padding: 12px;
+  width: 100%;
+  max-width: 999px;
 }
 .tag {
   background: yellow;
@@ -24,6 +37,6 @@
   margin: 5px;
 }
 
-.tag.hide {
+.hide {
   display: none;
 }
