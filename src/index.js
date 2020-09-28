@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import ComponentWithDimensions from "./ComponentWithDimensions";
+import Turncate from "./Turncate";
 
 import "./styles.css";
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <h1>Turncate demo</h1>
-      <ComponentWithDimensions />
+      <Turncate />
     </div>
   );
 }
