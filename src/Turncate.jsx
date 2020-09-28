@@ -5,7 +5,7 @@ const tags = [
   { id: 222, name: "3 Design" },
   { id: 44421, name: "4 Digital Marketing" },
   { id: 121224, name: "5 Video & Photo & Image" },
-  { id: 23312, name: "6 okokoBusinesskoko" },
+  { id: 23312, name: "6 Business" },
   { id: 123, name: "7 Music & Audio" },
   { id: 112312323, name: "8 Marketing, Branding & Sales" }
 ];
