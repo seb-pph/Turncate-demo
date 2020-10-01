@@ -1,0 +1,45 @@
+# Compiled JS
+js/
+build/
+
+# Code coverage
+coverage/
+
+# Storybook
+build-storybook
+
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# ViM related
+.vimproject
+*.swp
+*.AppleDouble
+*.sublime-project
+*.sublime-workspace
+.smbdelete*
+*.DS_Store
+/.buildpath
+/.project
+/.vscode
+
+# dev extensions
+.project
+.settings
+.idea
+.idea/*
+
+# Vagrant
+.vagrant
+config.rb
+
+# Other
+.env
+
+# Docker compose override file
+docker-compose.override.yml
+
+.editorconfig
